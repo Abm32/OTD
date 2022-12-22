@@ -9,3 +9,4 @@ Contibuters :
 - Dhanush G
 - Devanath D R
 
+  This is a solution proposed for health care sector under sustainable development goals.

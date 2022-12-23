@@ -3,15 +3,23 @@ base = Tk()
 base.geometry("500x500")  
 base.title("registration form")  
 
+
+
+
 def mmm():
     #entry_1.get()
     sum = float(vars.get()) + float(vars1.get()) + float(vars2.get()) + float(vars3.get()) + float(vars4.get()) + float(vars5.get()) + float(vars6.get()) + float(vars7.get()) #sum of all factor
     agg = sv.get() #age
     divv = float(agg) / float(sum)
-    per = divv * 100 # in percentage
+    pe = divv * 100 # in percentage
+    per = pe / 10
     print(str(int(per)) + " %")
     #c=float(0.1) + float(vars.get())
     #print(float(c))
+    lalb9 = Label(base, text=(str(int(per)) + " %"), width=15,font=("arial",12)) 
+    lalb9.place(x=0, y=440)
+
+
 
 labl_1 = Label(base, text="Age",width=15,font=("arial", 12))  
 labl_1.place(x=5,y=80)  
@@ -78,6 +86,7 @@ lb8.place(x=0, y=400)
 vars7 = IntVar()  
 Radiobutton(base, text="Yes", padx=5,variable=vars7, value=3).place(x=180, y=400)  
 Radiobutton(base, text="No", padx =10,variable=vars7, value=0).place(x=240,y=400) 
+
 
 Button(base, text="Calculate", width=10, command=mmm).place(x=200,y=440)  
 base.mainloop()

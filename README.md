@@ -1,6 +1,6 @@
 # OTD
 
-OTD ( The One Touch Doctor )
+OTD ( The One Touch Diagnosis )
 
 A group initiative by team Glitched Inn..
 Contibuters : 

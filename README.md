@@ -3,8 +3,7 @@
 OTD ( The One Touch Diagnosis )
 
 A group initiative by team Glitched Inn..
-
----
+ /br
 
 Contibuters : 
 - Abhimanyu R B
